@@ -12,11 +12,12 @@ def key_for_min_value(name_hash)
         if min_key == nil
             min_key = key
             min_value = value
-        end
-        if value < min_value
-            value = min_value
+        elsif min_value = value
+            min_value < value
         end
 
+
+
     end
-    value
+    
 end
